@@ -6,7 +6,7 @@ In Episerver CMS prior to the [UI refresh](https://world.episerver.com/blogs/rya
 ![Old globe](images/oldglobe.png)
 
 ## The new stuff
-In Episerver.CMS.UI 11.21.0 the globe disappeared! We would have to click «Options» and then «View on website» to accomplish the same. That is one more click I do not want to do.
+In Episerver.CMS.UI 11.21.0 the globe disappeared! We would first have to click «Options» and then «View on website» to accomplish the same. That is one more click I do not want to do.
 
 ![New link](images/newlink.png)
 
