@@ -1,12 +1,12 @@
 # Gulla.ViewOnWebsite
 
 ## The good old days
-In Episerver CMS prior to the (UI refresh)[https://world.episerver.com/blogs/ryan-bare/dates/2019/6/cms-ui-refresh/] in Episerver.CMS.UI 11.21.0 we were able to open the current content, and se what our visitors would se, by simply clicking the globe on the toolbar.
+In Episerver CMS prior to the [UI refresh](https://world.episerver.com/blogs/ryan-bare/dates/2019/6/cms-ui-refresh/) in Episerver.CMS.UI 11.21.0 we were able to open the current content, and ses what our visitors would ses, by simply clicking the globe on the toolbar.
 
 ![Old globe](images/oldglobe.png)
 
 ## The new stuff
-In Episerver.CMS.UI 11.21.0 you would have to click «Options» and then «View on website». That is one more click I do not want to do.
+In Episerver.CMS.UI 11.21.0 the globe disappeared! We would have to click «Options» and then «View on website» to accomplish the same. That is one more click I do not want to do.
 
 ![New link](images/newlink.png)
 
