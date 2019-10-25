@@ -1,7 +1,7 @@
 # Gulla.ViewOnWebsite
 
 ## The good old days
-In Episerver CMS prior to the [UI refresh](https://world.episerver.com/blogs/ryan-bare/dates/2019/6/cms-ui-refresh/) in Episerver.CMS.UI 11.21.0 we were able to open the current content, and ses what our visitors would ses, by simply clicking the globe on the toolbar.
+In Episerver CMS prior to the [UI refresh](https://world.episerver.com/blogs/ryan-bare/dates/2019/6/cms-ui-refresh/) in Episerver.CMS.UI 11.21.0 we were able to open the current content, and see what our visitors would see, by simply clicking the globe on the toolbar.
 
 ![Old globe](images/oldglobe.png)
 
@@ -11,6 +11,6 @@ In Episerver.CMS.UI 11.21.0 the globe disappeared! We would have to click «Opti
 ![New link](images/newlink.png)
 
 ## Get the globe back
-Using this module, you'll get that old familiar globe back on your toolbar! Clicking the globe, will open the current content in a new tab.
+Using this module, you'll get that old familiar globe back on your toolbar! Clicking the globe, will open the current content in a new tab. Nothing more, nothing less.
 
 ![New globe](images/newglobe.png)
