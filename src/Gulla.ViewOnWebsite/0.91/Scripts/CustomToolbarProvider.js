@@ -2,7 +2,6 @@
 define([
         "dojo/_base/declare",
         "dijit/form/Button",
-
         "epi-cms/component/command/_GlobalToolbarCommandProvider",
         "viewonwebsite/ViewOnWebsiteCommand"
     ],
