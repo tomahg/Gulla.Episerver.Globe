@@ -2,13 +2,15 @@
 <package >
   <metadata>
     <id>Gulla.ViewOnWebsite</id>
-    <version>0.90</version>
+    <version>0.91</version>
     <title>Gulla.ViewOnWebsite</title>
     <authors>Tomas Hensrud Gulla</authors>
     <owners>Tomas Hensrud Gulla</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Puts the globe back in your Episerver!</description>
+    <summary>Puts the globe back in your Episerver!</summary>
     <copyright>Copyright 2019</copyright>	
+	<tags>episerver,view,website,publicurl,globe</tags>
+	<description>Adds a globe button to the Episerver global toolbar, that lets you view the content on website with a single clicks.</description>
     <dependencies>
       <dependency id="EPiServer.CMS.UI" version="11.21.1" />
 	</dependencies>	
