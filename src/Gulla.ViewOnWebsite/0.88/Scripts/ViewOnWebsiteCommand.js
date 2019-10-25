@@ -3,9 +3,10 @@ define([
         "dojo/_base/declare",
         "epi/shell/command/_Command",
         "dojo/topic",
-        "epi/dependency"
+        "epi/dependency",
+		"dojo/_base/lang"
     ],
-    function (declare, _Command, topic, dependency) {
+    function (declare, _Command, topic, dependency, lang) {
         return declare([_Command],
             {
                 name: "ViewOnWebsite",
@@ -17,7 +18,7 @@ define([
                     var currentContext = contextService.currentContext;
                     this._contextChanged(currentContext);
 
-                    topic.subscribe("/epi/shell/context/changed", this._contextChanged);
+                    topic.subscribe("/epi/shell/context/changed", lang.hitch(this, this._contextChanged));
                 },
 
                 _contextChanged: function (newContext) {
@@ -25,12 +26,12 @@ define([
                         return;
                     }
 
-                    viewOnWebsite = newContext.publicUrl;
+                    this.viewOnWebsite = newContext.publicUrl;
                 },
 
                 _execute: function () {
-                    if (viewOnWebsite) {
-                        window.open(viewOnWebsite);
+                    if (this.viewOnWebsite) {
+                        window.open(this.viewOnWebsite);
                     } else {
                         alert('Content has no public URL.');
                     }
