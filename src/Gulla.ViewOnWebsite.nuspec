@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Gulla.ViewOnWebsite</id>
+    <version>0.86</version>
+    <title>Gulla.ViewOnWebsite</title>
+    <authors>Tomas Hensrud Gulla</authors>
+    <owners>Tomas Hensrud Gulla</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Puts the globe back in your Episerver!</description>
+    <copyright>Copyright 2019</copyright>
+    <dependencies>
+      <dependency id="EPiServer.CMS.UI" version="11.21.1" />
+	</dependencies>	
+  </metadata>
+  <files>
+	  <file src="Gulla.ViewOnWebsite\**" target="content\modules\Gulla.ViewOnWebsite\" />
+  </files>  
+</package>
