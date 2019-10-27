@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Gulla.ViewOnWebsite</id>
-    <version>0.92</version>
+    <version>0.93</version>
     <title>Gulla.ViewOnWebsite</title>
     <authors>Tomas Hensrud Gulla</authors>
     <owners>Tomas Hensrud Gulla</owners>
@@ -19,6 +19,7 @@
 	<iconUrl>https://github.com/tomahg/Gulla.ViewOnWebsite/blob/master/images/icon.png?raw=true</iconUrl>
   </metadata>
   <files>
-	  <file src="Gulla.ViewOnWebsite\**" target="content\modules\Gulla.ViewOnWebsite\" />
+	  <file src="Gulla.ViewOnWebsite\*.*" target="content\modules\Gulla.ViewOnWebsite\" />
+	  <file src="Gulla.ViewOnWebsite\Scripts\**" target="content\modules\Gulla.ViewOnWebsite\0.93\Scripts\" />
   </files>  
 </package>
