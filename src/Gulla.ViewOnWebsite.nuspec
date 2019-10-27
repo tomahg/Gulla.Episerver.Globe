@@ -10,7 +10,7 @@
     <summary>Puts the globe back in your Episerver!</summary>
     <copyright>Copyright 2019</copyright>	
     <repository type="git" url="https://github.com/tomahg/Gulla.ViewOnWebsite" branch="master" />
-    <releaseNotes>Show a different icon when the current content doeas not have a public URL.</releaseNotes>
+    <releaseNotes>Change internal folder structure.</releaseNotes>
 	<tags>episerver,view,website,publicurl,globe</tags>
 	<description>Adds a globe button to the Episerver global toolbar, that lets you view the content on website with a single clicks.</description>
     <dependencies>
