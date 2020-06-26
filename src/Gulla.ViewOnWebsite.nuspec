@@ -14,7 +14,7 @@
 	<tags>episerver,view,website,publicurl,globe</tags>
 	<description>Adds a globe button to the Episerver global toolbar, that lets you view the content on website with a single clicks.</description>
     <dependencies>
-      <dependency id="EPiServer.CMS.UI" version="11.21.1" />
+      <dependency id="EPiServer.CMS.UI" version="[11.21.1, 12.0.0)" />
 	</dependencies>	
 	<iconUrl>https://github.com/tomahg/Gulla.ViewOnWebsite/blob/master/images/icon.png?raw=true</iconUrl>
   </metadata>
