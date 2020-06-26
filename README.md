@@ -11,6 +11,6 @@ In Episerver.CMS.UI 11.21.0 the globe disappeared! We would first have to click 
 ![New link](images/newlink.png)
 
 ## Get the globe back
-Using this module, you'll get that old familiar globe back on your toolbar! Clicking the globe, will open the current content in a new tab. Nothing more, nothing less.
+Using this module, you'll get that old familiar globe back on your toolbar! Clicking the globe, will open the current content. Nothing more, nothing less.
 
 ![New globe](images/newglobe.png)

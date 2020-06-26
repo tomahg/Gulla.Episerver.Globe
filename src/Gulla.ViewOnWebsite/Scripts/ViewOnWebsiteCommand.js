@@ -30,7 +30,7 @@ define([
                     var publicUrl = currentContext.publicUrl;
 
                     if (publicUrl) {
-                        window.open(publicUrl);
+                        window.location = publicUrl;
                     }
                 }
             });
