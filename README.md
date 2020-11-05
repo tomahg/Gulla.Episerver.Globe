@@ -15,5 +15,6 @@ Using this module, you'll get that old familiar globe back on your toolbar! Clic
 
 ![New globe](images/newglobe.png)
 
-More information in [this blog post](https://www.gulla.net/no/blog/put-the-globe-back-in-episerver/)
+More information in [this blog post](https://www.gulla.net/no/blog/put-the-globe-back-in-episerver/).
+
 Also, [The globe is back!](https://www.gulla.net/no/blog/the-globe-is-back/)
