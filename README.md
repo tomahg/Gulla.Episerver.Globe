@@ -1,4 +1,4 @@
-# Gulla.ViewOnWebsite
+# Gulla.ViewOnWebsite for CMS 11
 
 This is the readme for the CMS 12 version, the version for CMS 11 is [over here](https://github.com/tomahg/Gulla.ViewOnWebsite/).
 
