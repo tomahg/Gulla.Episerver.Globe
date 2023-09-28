@@ -36,6 +36,8 @@ Using this module, you'll get that old familiar globe back on your toolbar! Unfo
 </module>
 ```
 
+And, once again, the globe is back!
+
 ![New globe](images/newnewglobe.png)
 
 More information in [this blog post](https://www.gulla.net/no/blog/put-the-globe-back-in-episerver/).
