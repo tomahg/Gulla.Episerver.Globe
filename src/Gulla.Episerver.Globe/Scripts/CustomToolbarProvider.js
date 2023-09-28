@@ -1,9 +1,9 @@
-﻿//viewonwebsite/CustomToolbarProvider
+﻿//globe/CustomToolbarProvider
 define([
         "dojo/_base/declare",
         "dijit/form/Button",
         "epi-cms/component/command/_GlobalToolbarCommandProvider",
-        "viewonwebsite/ViewOnWebsiteCommand",
+        "globe/ViewOnWebsiteCommand",
         "dojo/topic",
         "dojo/_base/lang"
     ],

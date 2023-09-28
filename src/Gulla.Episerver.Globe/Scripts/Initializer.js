@@ -1,8 +1,8 @@
-﻿//viewonwebsite/Initializer.js
+﻿//globe/Initializer.js
 define([
     'dojo/_base/declare',
     "epi/dependency",
-    "viewonwebsite/CustomToolbarProvider"
+    "globe/CustomToolbarProvider"
 ], function (declare, dependency, CustomToolbarProvider) {
     return declare(null, {
         initialize: function () {

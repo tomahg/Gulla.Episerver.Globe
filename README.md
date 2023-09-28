@@ -1,4 +1,4 @@
-# Gulla.ViewOnWebsite
+# Gulla.Episerver.Globe for CMS 12
 
 ## The good old days
 In Episerver CMS prior to the [UI refresh](https://world.episerver.com/blogs/ryan-bare/dates/2019/6/cms-ui-refresh/) in Episerver.CMS.UI 11.21.0 we were able to open the current content, and see what our visitors would see, by simply clicking the globe on the toolbar.

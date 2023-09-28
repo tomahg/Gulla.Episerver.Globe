@@ -1,4 +1,4 @@
-﻿//viewonwebsite/ViewOnWebsiteCommand.js
+﻿//globe/ViewOnWebsiteCommand.js
 define([
         "dojo/_base/declare",
         "epi/shell/command/_Command",
@@ -8,7 +8,7 @@ define([
     function (declare, _Command, dependency, topic) {
         return declare([_Command],
             {
-                name: "ViewOnWebsite",
+                name: "globe",
                 iconClass: "epi-iconWebsite",
                 canExecute: true,
 
@@ -30,7 +30,7 @@ define([
                     var publicUrl = currentContext.publicUrl;
 
                     if (publicUrl) {
-                        window.location = publicUrl;
+                        window.open(publicUrl);
                     }
                 }
             });
