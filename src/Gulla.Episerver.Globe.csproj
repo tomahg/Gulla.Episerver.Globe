@@ -8,8 +8,9 @@
 	</ItemGroup>
 
 	<Target Name="ZipOutputPath" BeforeTargets="BeforeBuild">
+		<MakeDir Directories="modules\_protected\Gulla.Episerver.Globe" />
 		<ZipDirectory
-			Overwrite="true"
+			Overwrite="true" 
 			SourceDirectory="$(MSBuildProjectDirectory)\Gulla.Episerver.Globe"
 			DestinationFile="$(MSBuildProjectDirectory)\modules\_protected\Gulla.Episerver.Globe\Gulla.Episerver.Globe.zip" />
 	</Target>
