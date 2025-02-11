@@ -12,29 +12,19 @@ In Episerver.CMS.UI 11.21.0 the globe disappeared! In Episerver.CMS.UI 11.30.0 i
 
 ## Get the globe back
 
-Using this module, you'll get that old familiar globe back on your toolbar! Unfortunately, there are currently no working NuGet package for CMS 12.
+Using this module, you'll get that old familiar globe back on your toolbar!
 
 ## Installing
 
--   Copy src\Gulla.Episerver.Globe\Scripts to \wwwroot\ClientResources\Scripts\Globe in your project
--   In module.config add details seen below
+-   Install **Gulla.Episerver.Globe** (v1.0.0) nuget package 
+    ```cs
+    dotnet add package Gulla.Episerver.Globe --version 1.0.0
+    ```
+-   Add following lines to **ConfigureServices** in **Startup.cs** (docs: [Configure Shell modules](https://docs.developers.optimizely.com/content-management-system/docs/configuring-shell-modules))
+    ```cs
+    services.Configure<ProtectedModuleOptions>(o => o.Items.Add(new ModuleDetails { Name = "Gulla.Episerver.Globe" }));
+    ```
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<module>
-  <dojo>
-    <paths>
-      <add name="globe" path="Scripts/Globe" />
-    </paths>
-  </dojo>
-
-   <clientModule initializer="globe.Initializer">
-    <moduleDependencies>
-      <add dependency="CMS" type="RunAfter" />
-    </moduleDependencies>
-  </clientModule>
-</module>
-```
 
 And, once again, the globe is back!
 
