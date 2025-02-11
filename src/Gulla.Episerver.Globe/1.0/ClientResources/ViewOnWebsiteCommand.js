@@ -1,10 +1,10 @@
 ﻿//globe/ViewOnWebsiteCommand.js
 define([
-        "dojo/_base/declare",
-        "epi/shell/command/_Command",
-        "epi/dependency",
-        "dojo/topic"
-    ],
+    "dojo/_base/declare",
+    "epi/shell/command/_Command",
+    "epi/dependency",
+    "dojo/topic"
+],
     function (declare, _Command, dependency, topic) {
         return declare([_Command],
             {
@@ -30,7 +30,7 @@ define([
                     var publicUrl = currentContext.publicUrl;
 
                     if (publicUrl) {
-                        window.open(publicUrl);
+                        window.open(publicUrl, "_self");
                     }
                 }
             });
