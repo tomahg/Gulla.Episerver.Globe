@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0"?>
 <package >
-  <metadata>
-    <id>Gulla.Episerver.Globe</id>
-    <version>1.00</version>
-    <title>Gulla.Episerver.Globe</title>
-    <authors>Tomas Hensrud Gulla</authors>
-    <owners>Tomas Hensrud Gulla</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>Puts the globe back in Optimizely CMS! Again!</summary>
-    <copyright>Copyright 2023</copyright>	
-    <repository type="git" url="https://github.com/tomahg/Gulla.Episerver.Globe" branch="master" />
-    <projectUrl>https://github.com/tomahg/Gulla.Episerver.Globe</projectUrl>
-    <releaseNotes>CMS 12 support.</releaseNotes>
-	<tags>optimizely,episerver,view,website,publicurl,globe</tags>
-	<description>Adds a globe button to the Optimizely CMS global toolbar, that lets you view the content on website with a single clicks.</description>
-    <dependencies>
-      <dependency id="EPiServer.CMS.UI" version="[12.22.0, 13.0.0)" />
-	</dependencies>	
-  </metadata>
-  <files>
-	  <file src="Gulla.Episerver.Globe\*.*" target="content\modules\Gulla.Episerver.Globe\" />
-	  <file src="Gulla.Episerver.Globe\Scripts\**" target="content\modules\Gulla.Episerver.Globe\1.00\Scripts\" />
-  </files>  
+	<metadata>
+		<id>Gulla.Episerver.Globe</id>
+		<version>1.0.0</version>
+		<title>Gulla.Episerver.Globe</title>
+		<authors>Tomas Hensrud Gulla</authors>
+		<owners>Tomas Hensrud Gulla</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Puts the globe back in Optimizely CMS! Again!</summary>
+		<copyright>Copyright 2023</copyright>
+		<repository type="git" url="https://github.com/tomahg/Gulla.Episerver.Globe" branch="master" />
+		<projectUrl>https://github.com/tomahg/Gulla.Episerver.Globe</projectUrl>
+		<releaseNotes>CMS 12 support.</releaseNotes>
+		<tags>optimizely,episerver,view,website,publicurl,globe</tags>
+		<description>Adds a globe button to the Optimizely CMS global toolbar, that lets you view the content on website with a single clicks.</description>
+		<contentFiles>
+			<files include="any/any/modules/_protected/Gulla.Episerver.Globe/Gulla.Episerver.Globe.zip" buildAction="None" copyToOutput="true" />
+		</contentFiles>
+	</metadata>
+	<files>
+		<file src="build\*.targets" target="build" />
+		<file src="modules/_protected/Gulla.Episerver.Globe/Gulla.Episerver.Globe.zip" target="contentFiles/any/any/modules/_protected/Gulla.Episerver.Globe" />
+	</files>
 </package>
