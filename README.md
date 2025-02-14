@@ -16,13 +16,13 @@ Using this module, you'll get that old familiar globe back on your toolbar!
 
 ## Installing
 
--   Install **Gulla.Episerver.Globe** (v1.0.0) nuget package 
+-   Install **Gulla.Episerver.Globe** nuget package 
     ```cs
-    dotnet add package Gulla.Episerver.Globe --version 1.0.0
+    dotnet add package Gulla.Episerver.Globe --version 1.1.0
     ```
--   Add following lines to **ConfigureServices** in **Startup.cs** (docs: [Configure Shell modules](https://docs.developers.optimizely.com/content-management-system/docs/configuring-shell-modules))
+-   Add following lines to **ConfigureServices** in **Startup.cs**
     ```cs
-    services.Configure<ProtectedModuleOptions>(o => o.Items.Add(new ModuleDetails { Name = "Gulla.Episerver.Globe" }));
+    services.AddGlobe();
     ```
 
 
