@@ -28,7 +28,7 @@ Using this module, you'll get that old familiar globe back on your toolbar!
 
 And, once again, the globe is back!
 
-![New globe](images/newnewnewglobe-edge.png)
+![New globe](images/newnewnewglobe-edge-new.png)
 
 More information in [this blog post](https://www.gulla.net/no/blog/put-the-globe-back-in-episerver/).
 
