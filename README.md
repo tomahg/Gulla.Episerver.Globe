@@ -1,6 +1,6 @@
 # Gulla.Episerver.Globe for CMS 13
 
-This is the readme for the CMS 13 version, the version for CMS 11 is [over here](https://github.com/tomahg/Gulla.ViewOnWebsite/tree/CMS11).
+This is the readme for the CMS 13 version, the version for CMS 11 is [over here](https://github.com/tomahg/Gulla.ViewOnWebsite/tree/CMS11) and the version for CMS 12 is [over here](https://github.com/tomahg/Gulla.ViewOnWebsite/tree/CMS12).
 
 ## The good old days
 
@@ -8,7 +8,7 @@ In Episerver CMS prior to the [UI refresh](https://world.episerver.com/blogs/rya
 
 ## A roller coaster
 
-In Episerver.CMS.UI 11.21.0 the globe disappeared! In Episerver.CMS.UI 11.30.0 it was back! But not for long! In EPiServer.CMS.UI 12.22.0 it was removed again!
+In Episerver.CMS.UI 11.21.0 the globe disappeared! In Episerver.CMS.UI 11.30.0 it was back! But not for long! In EPiServer.CMS.UI 12.22.0 it was removed again! And in CMS 13? Still missing!
 
 ## Get the globe back
 
@@ -28,7 +28,7 @@ Using this module, you'll get that old familiar globe back on your toolbar!
 
 And, once again, the globe is back!
 
-![New globe](images/newnewnewglobe.png)
+![New globe](images/newnewnewglobe-edge.png)
 
 More information in [this blog post](https://www.gulla.net/no/blog/put-the-globe-back-in-episerver/).
 
