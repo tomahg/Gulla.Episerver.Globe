@@ -1,18 +1,17 @@
 ﻿//globe/CustomToolbarProvider
 define([
         "dojo/_base/declare",
-        "dijit/form/Button",
         "epi-cms/component/command/_GlobalToolbarCommandProvider",
         "globe/ViewOnWebsiteCommand",
         "dojo/topic",
         "dojo/_base/lang"
     ],
-    function (declare, Button, _GlobalToolbarCommandProvider, ViewOnWebsiteCommand, topic, lang) {
+    function (declare, _GlobalToolbarCommandProvider, ViewOnWebsiteCommand, topic, lang) {
         return declare([_GlobalToolbarCommandProvider],
             {
                 constructor: function () {
                     this.inherited(arguments);
-                    this.addToTrailing(new ViewOnWebsiteCommand(), { showLabel: false, widget: Button });
+                    this.addToTrailing(new ViewOnWebsiteCommand(), { showLabel: false, "class": "epi-chromeless epi-mediumButton comments-button" });
                     topic.subscribe("/epi/shell/context/changed", lang.hitch(this, this._contextChanged));
                 },
 

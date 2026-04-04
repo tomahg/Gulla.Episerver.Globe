@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
-    <Version>1.1.0</Version>
-    <PackageVersion>1.1.0</PackageVersion>
+		<TargetFramework>net10.0</TargetFramework>
+    <Version>2.0.0</Version>
+    <PackageVersion>2.0.0</PackageVersion>
     <PackageId>Gulla.Episerver.Globe</PackageId>
     <Title>Gulla.Episerver.Globe</Title>
     <Authors>Tomas Hensrud Gulla</Authors>
-    <Description>Puts the globe back in Optimizely CMS! Again!</Description>
+    <Description>Puts the globe back in Optimizely CMS! Again and again!</Description>
     <PackageTags>optimizely,publicurl,globe</PackageTags>
     <PackageProjectUrl>https://github.com/tomahg/Gulla.Episerver.Globe</PackageProjectUrl>
     <RepositoryUrl>https://github.com/tomahg/Gulla.Episerver.Globe</RepositoryUrl>
@@ -15,7 +15,7 @@
 	</PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EPiServer.CMS.UI.Core" Version="[12.0.2, 13.0.0)" />
+    <PackageReference Include="EPiServer.CMS.UI.Core" Version="[13.0.0, 14.0.0)" />
   </ItemGroup>
   
 	<ItemGroup>

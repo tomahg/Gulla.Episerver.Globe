@@ -1,6 +1,6 @@
-# Gulla.Episerver.Globe for CMS 12
+# Gulla.Episerver.Globe for CMS 13
 
-This is the readme for the CMS 12 version, the version for CMS 11 is [over here](https://github.com/tomahg/Gulla.ViewOnWebsite/tree/CMS11).
+This is the readme for the CMS 13 version, the version for CMS 11 is [over here](https://github.com/tomahg/Gulla.ViewOnWebsite/tree/CMS11).
 
 ## The good old days
 
@@ -18,7 +18,7 @@ Using this module, you'll get that old familiar globe back on your toolbar!
 
 -   Install **Gulla.Episerver.Globe** nuget package 
     ```cs
-    dotnet add package Gulla.Episerver.Globe --version 1.1.0
+    dotnet add package Gulla.Episerver.Globe --version 2.0.0
     ```
 -   Add following lines to **ConfigureServices** in **Startup.cs**
     ```cs
@@ -28,10 +28,12 @@ Using this module, you'll get that old familiar globe back on your toolbar!
 
 And, once again, the globe is back!
 
-![New globe](images/newnewglobe.png)
+![New globe](images/newnewnewglobe.png)
 
 More information in [this blog post](https://www.gulla.net/no/blog/put-the-globe-back-in-episerver/).
 
 Also, [The globe is back!](https://www.gulla.net/no/blog/the-globe-is-back/)
 
 And, [Gone again!](https://www.gulla.net/en/blog/optimizely-cms-with-new-menu-system/)
+
+And now, ready for CMS 13!
